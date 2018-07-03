@@ -3,12 +3,21 @@ History
 __Previews
 *.PrjPCBStructure
 *.PrjPcbStructure
-
 *.SchDocPreview
 *.PcbDocPreview
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+Project\ Outputs
+Project\ Logs
 Project Outputs for *
 Project Logs for *
 
-# PCB
-# *.IntLib
-# *.LOG
+#History
+#Exports, but not manual ones
+exports/*
+!exports/manual
